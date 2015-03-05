@@ -1,0 +1,207 @@
+.main {
+    width: 981px;
+    height: 324px;
+    margin: auto;
+    margin-top: 100px;
+}
+.header {
+    font-family: arial;
+    font-size: 16pt;
+    color: #004d98;
+    padding top: 22px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.content-block {
+    background-color: #ffffff;
+    width: 950px;
+    height: 223px;
+    border-radius: 8px;
+}
+.login-container { 
+    float: left;
+    box-sizing: border-box;
+ /* background-color: #60ba1e; */ 
+    background-color: #ffffff;
+    width: 466px;
+    height: 215px;
+    margin-left: 18px; 
+    padding-top: 13px;
+    margin-right: 0px;
+}
+.message-container {
+    box-sizing: border-box;
+    float:left;
+    background-color: #ffffff;
+/*  background-color: #a68989;*/ 
+    width: 440px;
+    height: 215px;
+    padding-top: 13px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.button-block {
+    float: left;
+    min-width: 0px;
+    margin-top: -38px;
+}
+.button {
+    font-family: arial;
+    font-size: 11pt;
+    float: left;
+    min-width: 114px;
+    height: 38px;
+    border-width: 0px;
+    border-radius: 7px 7px 0px 0px;
+    margin-left: 13px;
+    padding-left: 21px;
+    padding-right: 21px;
+    outline: none;
+}
+.button+.button {
+    margin-left: 10px;
+}
+.button:hover {
+    cursor: pointer;
+}
+.button.active {
+    color: #252525;
+    background-color: #ffffff;
+}
+.button.disable {
+    color: #959595;
+    background-color: #f8f8f8;
+}
+.button.submit {
+    width: 170px;
+    height: 42px;
+    background-color: #f4842c;
+    color: #ffffff;
+    border-radius: 7px;
+    margin-left: 0px;
+   text-align: left;
+}
+.input-theme-block {
+    height: 25px;
+    width: 100%;
+}
+.input {
+    font-family: arial;
+    font-size: 11pt;
+    box-sizing: border-box;
+    height: 27px;
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bfbfbf;
+    border-radius: 8px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.label {
+    font-family: arial;
+    font-size: 11pt;
+}
+.label.theme {
+    float: left;
+    padding-top: 2px;
+    margin-right: 10px;
+}
+.label.contact-data {
+    padding-top: 15px;
+}
+.label.check-label {
+    font-size: 9pt;
+    margin-left: 30px;
+}
+.arrow {
+    position: absolute;
+    height: 26px;
+    width: 32px;
+    margin-left: 237px;
+    margin-top: -26px;
+    background: url(/home/haldir/Документы/Test0503/img/arrow.png) no-repeat center center;
+    border-radius: 0px 7px 7px 0px;
+}
+.arrow:hover {
+    cursor: pointer;
+}
+.brackedown {
+    position: absolute;
+    background-color: #ffffff;
+    min-height: 50px;
+    width: 167px;
+    margin-left: 102px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bfbfbf;
+    border-radius: 8px;
+}
+.brackedown-items {
+    font-family: arial;
+    font-size: 11pt;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 7px;
+}
+.brackedown-items+.brackedown-items {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.brackedown-items:hover {
+    cursor: pointer;
+    color: #004d98;
+}
+.input.select {
+    width: 167px;   
+}
+.input.name {
+    margin-top: 10px;
+    width: 466px;
+}
+.input.email {
+    margin-top: 10px;
+    width: 225px;
+}
+.input.phone {
+    margin-left: 12px;
+    width: 225px;
+}
+.input.massage {
+    width: 100%;
+    height: 93px;
+    resize: none;
+    padding-top: 7px;
+}
+.check-container {
+    height: 44px;
+    width: 100%;
+}
+.check-box {
+    float: left; 
+    margin-top: 10px;
+    width: 30px;
+    height: 23px;
+}
+.check-box.check {
+    margin-left: -5px;
+    background: url(/home/haldir/Документы/Test0503/img/check.png) no-repeat center center;
+}
+.check-box.uncheck {
+    background: url(/home/haldir/Документы/Test0503/img/uncheck.png) no-repeat center center;
+}
+.check-box+.check-box {
+    margin-left: 60px;
+}
+.check-box:hover {
+    cursor: pointer;
+}
+.label.check-label {
+    float: left;
+    height: 23px;
+    min-width: 10px;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 13px;
+}

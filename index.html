@@ -3,43 +3,43 @@
   <head>
      <meta charset="utf-8">
      <link rel="stylesheet" href="css/style.css">
-     <script type="text/javascript" src="js/jquery.js"></script>
+     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+     <script type="text/javascript" src="js/main.js"></script>
      <title>Test</title>
   </head>
-<body bgcolor="#e6e6e6">
+<body>
     <div class="main">
     <h1 class="header">
       Оформление письма</h1>
-      <div class="content-block">
+      <form class="content-block">
         <div class="button-block">
         <button class="button active">Менеджеру</button>
         <button class="button disable">Директору</button></div>
         <div class="login-container">
          <label class="label theme">Тема письма:</label>
            <div class="input-theme-block">
-            <input class="input select" disabled>
+            <input class="input select" disabled="disabled"  type="text" value="Тема 1">
              <div class="arrow"></div>
-             <div class="brackedown">
-              <div><p class="brackedown-items">Тема 1</p></div>
-              <div><p class="brackedown-items">Тема 2</p></div>
-              <div><p class="brackedown-items">Тема 3</p></div>
-              <div><p class="brackedown-items">Тема 4</p></div>
+             <div class="dropdown">
+              <div class="dropdown-items" data-option="Тема 1">Тема 1</div>
+              <div class="dropdown-items" data-option="Тема 2">Тема 2</div>
+              <div class="dropdown-items" data-option="Тема 3">Тема 3</div>
+              <div class="dropdown-items" data-option="Тема 4">Тема 4</div>
             </div>
             </div>
           <div class="label contact-data"><label>Введите ваши контактные данные </label></div>
-          <div><input class="input name" placeholder="Ф. И О.">
-               <input class="input email" placeholder="Контактный e-mail">
-               <input class="input phone" placeholder="Телефон"></div></div>
-        <div class="message-container"><textarea class="input massage" placeholder="Текст сообщения"></textarea>
+          <div><input type="text" class="input name" placeholder="Ф. И О.">
+               <input type="text" class="input email" placeholder="Контактный e-mail">
+               <input type="text" class="input phone" placeholder="Телефон"></div></div>
+        <div class="message-container"><textarea type="text" class="input massage" placeholder="Текст сообщения"></textarea>
              <div class="check-container">
-              <div class="check-box check"></div>
+              <div class="check-box" data-checked="false"></div>
               <div class="check-label"><label class="label check-label">Срочно</label></div>
-              <div class="check-box uncheck"></div>
+              <div class="check-box" data-checked="false"></div>
               <div class="check-label"><label class="label check-label">Позвонить после обработки</label></div>
-              
-             </div>
+              </div>
              <button class="button submit">Отправить</botton>
-        </div>
+        </form>
       </div>
 </body>
 </html>

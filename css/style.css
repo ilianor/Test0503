@@ -43,7 +43,7 @@ body {
 .message-container {
     box-sizing: border-box;
     float:left;
-    background-color: #ffffff;
+    /*background-color: #ffffff; */
     width: 440px;
     height: 215px;
     padding-top: 13px;
@@ -129,7 +129,7 @@ body {
     position: absolute;
     height: 26px;
     width: 32px;
-    margin-left: 237px;
+    margin-left: 240px;
     margin-top: -26px;
     background: url(../img/arrow.png) no-repeat center center;
     border-radius: 0px 7px 7px 0px;
@@ -142,7 +142,7 @@ body {
     position: absolute;
     background-color: #ffffff;
     min-height: 50px;
-    width: 167px;
+    width: 170px;
     margin-left: 102px;
     border-style: solid;
     border-width: 1px;
